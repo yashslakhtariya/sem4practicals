@@ -1,3 +1,5 @@
+import datetime
+
 print("\n\t\tRegistration Form for online game competition\n")
 
 teamornot = int(input("Individual Application(type 1) or Team Application(type 2)? \n"))
@@ -7,7 +9,7 @@ if teamornot == 1:
 
     age = int(input("Age : "))
     while age < 12 or age > 100:
-        age = int(input("Please input valid age between 12 and 100"))
+        age = int(input("Please input valid age between 12 and 100 : "))
 
     contact = int(input("Contact : "))
     while len(str(contact)) != 10:
@@ -18,6 +20,7 @@ if teamornot == 1:
     for i in range(0, nofgms):
         g = input('Game {} : '.format(i+1))
         games.append(g)
+    timenow = datetime.datetime.now()
 
     print("\n\tDetails given : \n")
     print("Name - {}".format(name))
@@ -25,6 +28,7 @@ if teamornot == 1:
     print("Contact - {}".format(contact))
     for i in range(0, nofgms):
         print("Game {0} - {1}".format(i+1, games[i]))
+    print("Timestamp of filling form : {0}".format(timenow))
 
 elif teamornot == 2:
     nofmbrs = int(input("Enter number of members in the team : "))
@@ -60,6 +64,7 @@ elif teamornot == 2:
     for i in range(0, nofgms):
         g = str(input('Game {} : '.format(i+1)))
         games.append({"Game {}".format(i+1): g})
+    timenow = datetime.datetime.now()
 
     print("\n\tDetails given : \n")
     for i in range(0, nofmbrs):
@@ -69,6 +74,6 @@ elif teamornot == 2:
         print("\n")
     for i in range(1, nofgms+1):
         print(str(games[i]).replace("'", "").replace("{", "").replace("}", "").replace(":", " -"))
-
+    print("Timestamp of filling form : {0}".format(timenow))
 else:
     print("Invalid Input!")
