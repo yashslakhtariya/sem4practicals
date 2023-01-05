@@ -1,6 +1,6 @@
 print("\n\t\tRegistration Form for online game competition\n")
 
-teamornot = int(input("Individual Application(type 1) or Team Application(type 2)?"))
+teamornot = int(input("Individual Application(type 1) or Team Application(type 2)? \n"))
 
 if teamornot == 1:
     name = str(input("Name : "))
