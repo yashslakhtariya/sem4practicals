@@ -1,6 +1,6 @@
 import random
 
-num = random.randint(0,1000)
+num = random.randint(0, 1000)
 sumofdgts = 0
 for i in str(num):
     sumofdgts += int(i)
