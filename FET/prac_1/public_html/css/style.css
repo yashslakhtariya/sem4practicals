@@ -292,6 +292,10 @@ section{
     font-size: 5rem;
 }
 
+.container .posts-container .box h1{
+    text-align: center;
+}
+
 .container .posts-container .box .about p{
     color:var(--txtcolor);
     font-size: 2.5rem;
