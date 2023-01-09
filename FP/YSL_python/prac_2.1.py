@@ -1,5 +1,3 @@
-import math
-
 amnt = float(input("Enter the amount of money : "))
 
 while amnt < 0:

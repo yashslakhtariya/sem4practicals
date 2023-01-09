@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../FET/prac_1/public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../FET/prac_1/public_html/index.html" afterDir="false" />
+    <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac_2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_2.1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +98,24 @@
       <workItem from="1673238307985" duration="338000" />
       <workItem from="1673238651772" duration="1392000" />
       <workItem from="1673240059243" duration="2753000" />
+      <workItem from="1673242826286" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1673242857975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673242857975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
