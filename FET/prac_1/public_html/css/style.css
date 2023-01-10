@@ -157,37 +157,6 @@ section{
     display: none;
 }
 
-.banner{
-    min-height: 80vh;
-    background:url(../images/banner.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    place-items: center;
-    padding-top: 8rem;
-}
-
-.banner .content{
-    text-align: center;
-    background: transparent;
-    border-radius: 1.5rem;
-    padding:3rem;
-    max-width: 50rem;
-}
-
-.banner .content h3{
-    font-size: 4.8rem;
-    color:#cf616c;
-    text-transform: uppercase;
-}
-
-.banner .content p{
-    font-size: 2rem;
-    color:#5e81cc;
-    padding:1rem 0;
-    line-height: 1.5;
-}
-
 .container{
     display: block;
     grid-template-columns: 2.5fr 1fr;
@@ -205,10 +174,10 @@ section{
 }
 
 .container .posts-container .post .image{
-    height: 40rem;
+    height: 60rem;
     width:100%;
     border-radius: 1rem;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .container .posts-container .post .title{
@@ -283,7 +252,7 @@ section{
     height: 50rem;
     width: 50rem;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:cover;
     margin:1rem 0;
 }
 

@@ -1,4 +1,1 @@
-function alrt()
-{
-     alert("JS Demo 1");
-}
+let msg = "Demo"
