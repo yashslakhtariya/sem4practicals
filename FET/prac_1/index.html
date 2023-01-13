@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+    <title>YSL Portfolio</title>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">~ Yash Lakhtariya</a>
+
+    <nav class="navbar">
+        <a href="#banner">home</a>
+        <a href="#cowbot">my projects</a>
+        <a href="#contact">contact me</a>
+        <a href="ysl.pdf">download PDF</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<br><br><br><br><br><br>
+
+<!-- posts section starts  -->
+
+<section class="container" id="posts">
+
+    <div class="posts-container">
+
+        <div class="box">
+            <h3 class="title" style="text-align: center;">about me</h3>
+            <div class="about">
+                <img src="images/user.png" alt="">
+                <h3>Yash Lakhtariya</h3>
+                <p>Primarily a spiritual seeker, servant of God, in service of Worldwide Hare Krishna Movement and a computer science student having interest in Free and Open Source Projects like Linux, Android and have tried the most popular linux distros. Good at functional programming and backend, various color combinations in UI designing and styling UI elements.</p>
+                <div class="follow">
+        <a href="https://github.com/yashlakhtariya" target="_blank" class="fab fa-github"></a>
+        <a href="https://wa.me/916351573711" target="_blank" class="fab fa-whatsapp"></a>
+        <a href="https://t.me/soul4krishna" target="_blank" class="fab fa-telegram"></a>
+        <a href="https://instagram.com/soul4krishna" target="_blank" class="fab fa-instagram"></a>
+    </div>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="box"> 
+            <h1 class="title">My Projects</h1>
+        </div>
+
+        <br>
+
+        <div class="post" id="cowbot">
+            <img src="images/Cowbot_Design_Basic.jpg" alt="" class="image">
+            <h3 class="title">Cowbot v1</h3>
+            <h3 class="title" style="font-size: large; color: #5e81cc;">C++(98%), Shell(2%)</h3>
+            <p class="text">Everyone needs Assistant to make their work easy! So applies to operating systems. Have you ever thought that Android has Google Assistant, Apple has Siri, Amazon has Alexa, Windows has Cortana, what about Linux?! So presenting an AI Based Assistant for Arch Linux Systems written primarily in C++. For more information please visit product link</p>
+            <div class="links">
+                <a href="https://github.com/yashslakhtariya/cowbot-cpp" target="_blank">
+                    <span style="color: #cf616c; font-size: medium; font-weight: bolder;">~ Product Link</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="post" id="cowbot2">
+            <img src="images/Cowbot_Design_2.jpg" alt="" class="image">
+            <h3 class="title">Cowbot v2</h3>
+            <h3 class="title" style="font-size: large; color: #2aa1b3;">Java(79.7%), C++(9.8%), Shell(7.2%), SQL(3.3%)</h3>
+            <p class="text">An improved and completely redesigned version of Cowbot AI Linux Assistant targeted primarily at extending its features to the great extent</p>
+            <div class="links">
+                <a href="https://github.com/yashslakhtariya/cowbot" target="_blank">
+                    <span style="color: #cf616c; font-size: medium; font-weight: bolder;">~ Product Link</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="post" id="cowbot3">
+            <img src="images/Cowbot_Design.jpg" alt="" class="image">
+            <h3 class="title">Cowbot v3</h3>
+            <h3 class="title" style="font-size: large; color: #a347ba;">Kotlin(81.3%), C++(8.3%), Shell(7.1%), SQL(3.3%)</h3>
+            <p class="text">Replacing Java with Kotlin in the application increased Cowbot's speed and performance almost 3x and using Kotlin features along with other languages powers this new and latest(as of 2022) version of Cowbot.</p>
+            <div class="links">
+                <a href="https://github.com/yashslakhtariya/cowbot-ktln" target="_blank">
+                    <span style="color: #cf616c; font-size: medium; font-weight: bolder;">~ Product Link</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="post" id="leobot">
+            <img src="images/Leobot_Design.jpg" alt="" class="image">
+            <h3 class="title">Leobot</h3>
+            <p class="text">Premium version of Cowbot which as paid. Leo replaces Cow and gives premium experience primarily with audio output feature which isn't available in Cowbot, and much more customized features.</p>
+            <div class="links">
+                <a href="https://t.me/soul4krishna" target="_blank">
+                    <span style="color: #cf616c; font-size: medium; font-weight: bolder;">~ Contact on Telegram for purchasing</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- posts section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <form action="">
+        <h3>contact me</h3>
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="follow">
+        <a href="https://github.com/yashlakhtariya" target="_blank" class="fab fa-github"></a>
+        <a href="https://wa.me/916351573711" target="_blank" class="fab fa-whatsapp"></a>
+        <a href="https://t.me/soul4krishna" target="_blank" class="fab fa-telegram"></a>
+        <a href="https://instagram.com/soul4krishna" target="_blank" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit">created by <span>Yash Lakhtariya</span> | all rights reserved</div>
+
+</section>
+<!-- footer section ends -->
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
