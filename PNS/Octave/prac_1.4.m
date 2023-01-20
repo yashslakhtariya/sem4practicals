@@ -16,4 +16,3 @@ plot(r, nCr, "r.", "Markersize", 30)
 title("YSL Graph for r versus nCr", "fontsize", 30)
 xlabel("r variable", "fontsize", 25)
 ylabel("nCr", "fontsize", 25)
-

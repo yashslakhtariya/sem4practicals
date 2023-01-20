@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="updated" />
+    <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PNS/Octave/prac_1.3.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../PNS/Octave/prac_1.3.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PNS/Octave/prac_1.4.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../PNS/Octave/prac_1.4.m" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -145,6 +157,9 @@
       <workItem from="1673414503394" duration="24000" />
       <workItem from="1673609102897" duration="6000" />
       <workItem from="1673797780574" duration="1987000" />
+      <workItem from="1674096700940" duration="74000" />
+      <workItem from="1674096785262" duration="12000" />
+      <workItem from="1674106313709" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1673242857975</created>
