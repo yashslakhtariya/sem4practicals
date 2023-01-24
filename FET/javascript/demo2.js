@@ -1,4 +1,15 @@
-function alrt2()
+let animal = {
+     jumps: null
+};
+
+let rabbit = Object.create(animal, {
+     jumps: true
+});
+
+function demo2()
 {
-     alert("JS Demo 2");
+     alert("demo");
+     alert(rabbit.jumps);
+     delete animal.jumps;
+     alert(rabbit.jumps);
 }
