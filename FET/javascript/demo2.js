@@ -2,14 +2,17 @@ let animal = {
      jumps: null
 };
 
-let rabbit = Object.create(animal, {
-     jumps: true
-});
+let rabbit = {
+     jumps: true,
+     __proto__:animal
+}
 
 function demo2()
 {
      alert("demo");
      alert(rabbit.jumps);
-     delete animal.jumps;
+     delete rabbit.jumps;
      alert(rabbit.jumps);
 }
+
+console.log(rabbit.jumps);
