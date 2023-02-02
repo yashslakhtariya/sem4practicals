@@ -17,6 +17,7 @@ while frst < 1 or frst > 7:
     print("Invalid Input!")
     frst = int(input("Please enter the valid number for first day of specific year between 1 and 7 : "))
 
+frst = frst-1
 dys = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
 mnths = {"January": 31, "February": 28, "March": 31, "April": 30, "May": 31, "June": 30, "July": 31,
@@ -24,3 +25,9 @@ mnths = {"January": 31, "February": 28, "March": 31, "April": 30, "May": 31, "Ju
 
 if leap(yr):
     mnths["February"] = 29
+
+print("\nJanuary 1, {0} is {1}".format(yr, dys[frst]))
+
+for i in range(1, 12):
+    print("{0} 1, {1} is {2}".format(list(mnths.keys())[i], yr, dys[(frst + mnths[list(mnths.keys())[i-1]]) % 7]))
+    frst = (frst + mnths[list(mnths.keys())[i-1]]) % 7

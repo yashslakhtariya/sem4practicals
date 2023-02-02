@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>FET Practical 6 by YSL</title>
+</head>
+<body>
+     <script>
+          y = [NaN, 0, 15, false, -22, ' ', undefined, 47, null, 64, 16, -32];
+          y = y.filter(i => typeof i === "number" && i!=0 && isFinite(i));
+          alert(y);
+
+          function shuffleArray(array)
+          {
+               return array.sort(()=> Math.random()-0.5);
+          };
+          y = shuffleArray(y);
+          alert(y);
+     </script>
+</body>
+</html>                                                          
