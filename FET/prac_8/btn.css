@@ -28,7 +28,6 @@
      -ms-transform: translate(-50%, -50%);
      transform: translate(-50%, -50%);  
 }
-   
 .button:active {
      background-color: #d18677;
      box-shadow: 0 5px #9195bb;
