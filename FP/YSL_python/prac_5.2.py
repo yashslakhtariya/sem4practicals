@@ -5,6 +5,9 @@ def bblesrt(ysl: list):
                 ysl[j], ysl[j + 1] = ysl[j + 1], ysl[j]
 
 
-ysl_lst = [64, 16, 32, 22, 28, 18, 24, 20]
+ysl_lst = []
+print("\nEnter 10 elements to add in a list : ")
+for i in range(0, 10):
+    ysl_lst.append(int(input("")))
 bblesrt(ysl_lst)
-print(ysl_lst)
+print(f"The sorted list is : {ysl_lst}")
