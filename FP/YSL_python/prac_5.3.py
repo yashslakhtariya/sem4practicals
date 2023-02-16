@@ -27,14 +27,18 @@ for i in range(0, rows):
     for j in range(0, cols):
         mat[i][j] = int(input(f"Enter element a[{i}][{j}] : "))
 
+print("\n\tThe Matrix is : \n")
+for i in range(rows):
+    for j in range(cols):
+        print(mat[i][j], end=" ")
+    print("")
+
 if idntty(rows, cols, mat):
-    print("Yes, it is Identity Matrix")
+    print("\n\tYes, it is Identity Matrix")
 else:
-    print("No, it is not Identity Matrix")
+    print("\n\tNo, it is not Identity Matrix")
 
 if bnry(rows, cols, mat):
-    print("Yes, it is Binary Matrix")
+    print("\n\tYes, it is Binary Matrix")
 else:
-    print("No, it is not Binary Matrix")
-
-print(mat)
+    print("\n\tNo, it is not Binary Matrix")
