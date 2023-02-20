@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatgpt_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +219,7 @@
       <workItem from="1676566420140" duration="1553000" />
       <workItem from="1676567983402" duration="859000" />
       <workItem from="1676822043477" duration="2856000" />
+      <workItem from="1676864732451" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1673242857975</created>
@@ -331,7 +332,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/YSL_python$prac_2_2.coverage" NAME="prac_2.2 Coverage Results" MODIFIED="1673799309329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/YSL_python$chatgpt_demo.coverage" NAME="chatgpt_demo Coverage Results" MODIFIED="1676824357513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YSL_python$chatgpt_demo.coverage" NAME="chatgpt_demo Coverage Results" MODIFIED="1676865802985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$prac_5_3.coverage" NAME="prac_5.3 Coverage Results" MODIFIED="1676568780322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1675229221164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$prac_3_3.coverage" NAME="prac_3.3 Coverage Results" MODIFIED="1675354372595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

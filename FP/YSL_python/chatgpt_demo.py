@@ -1,7 +1,7 @@
 import openai
 import subprocess
 
-openai.api_key = "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"
+openai.api_key = ""
 model_engine = "text-davinci-003"
 
 qry = input("Enter your query to search ChatGPT : ")
