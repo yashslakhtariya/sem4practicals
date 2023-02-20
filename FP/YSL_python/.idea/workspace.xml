@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_6.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_6.3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +222,8 @@
       <workItem from="1676864732451" duration="726000" />
       <workItem from="1676865926105" duration="3884000" />
       <workItem from="1676869894400" duration="56000" />
-      <workItem from="1676870044701" duration="736000" />
+      <workItem from="1676870044701" duration="796000" />
+      <workItem from="1676879852560" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1673242857975</created>
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676869632643</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated">
+      <created>1676870825866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676870825866</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +368,7 @@
     <SUITE FILE_PATH="coverage/YSL_python$prac_6_2.coverage" NAME="prac_6.2 Coverage Results" MODIFIED="1676869808161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$prac_4_2.coverage" NAME="prac_4.2 Coverage Results" MODIFIED="1675971002635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$demo96.coverage" NAME="demo96 Coverage Results" MODIFIED="1676513583215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/YSL_python$prac_6_3.coverage" NAME="prac_6.3 Coverage Results" MODIFIED="1676870729283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YSL_python$prac_6_3.coverage" NAME="prac_6.3 Coverage Results" MODIFIED="1676870781639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$prac_2_1.coverage" NAME="prac_2.1 Coverage Results" MODIFIED="1673242776680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1675230352706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YSL_python$prac_5_1.coverage" NAME="prac_5.1 Coverage Results" MODIFIED="1676568755101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
