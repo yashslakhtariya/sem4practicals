@@ -33,4 +33,5 @@ yash.hours = 1
 yash.readSPbooks()
 # While calling method of class via object, actual code running is : 
 Haribol.readSPbooks(yash)
+# Hence yash.readSPbooks() and Haribol.readSPbooks(yash) are same. It shows how 'self' parameter is passed hiddenly
 yash.greet()
