@@ -9,4 +9,40 @@ function validate()
      mail=/^\w+([.-]?\w+)@\w+([.-]?\w+)(\.\w{2,3})$/;
      nmbr=/^\d{10}$/;
      passwrd=/^[A-Za-z]+([.#@%]?\w+)$/;
+     if(letter.test(nme))
+     {
+          if(mail.test(eml))
+          {
+               if(nmbr.test(mbl))
+               {
+                    if(passwrd.test(pswd) && passwrd.test(pswd2))
+                    {
+                         if(pswd == pswd2)
+                         {
+                              alert("Login Successful!")
+                         }
+                         else
+                         {
+                              alert("Passwords don't match!")
+                         }
+                    }
+                    else
+                    {
+                         alert("Password validation unsuccessful!")
+                    }
+               }
+               else
+               {
+                    alert("Invalid contact number!")
+               }
+          }
+          else
+          {
+               alert("Email validation unsuccessful!")
+          }
+     }
+     else
+     {
+          alert("Invalid name!")
+     }
 }
