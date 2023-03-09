@@ -1,3 +1,5 @@
+# name == main
+
 def greet(name: str):
      print(f'Hare Krishna {name.capitalize()}')
      

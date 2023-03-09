@@ -1,3 +1,5 @@
+# name == main
+
 import demo991
 
 demo991.greet("yash")
