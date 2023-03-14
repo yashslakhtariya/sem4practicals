@@ -7,6 +7,9 @@ import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { Child2Component } from './child2/child2.component';
 import { NgifComponent } from './ngif/ngif.component';
+import { NgswtchComponent } from './ngswtch/ngswtch.component';
+import { NgclsComponent } from './ngcls/ngcls.component';
+import { NgstylComponent } from './ngstyl/ngstyl.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { NgifComponent } from './ngif/ngif.component';
     ChildComponent,
     ParentComponent,
     Child2Component,
-    NgifComponent
+    NgifComponent,
+    NgswtchComponent,
+    NgclsComponent,
+    NgstylComponent
   ],
   imports: [
     BrowserModule, FormsModule

@@ -1,0 +1,15 @@
+<br>
+<h3>ngSwitch</h3>
+
+<div>
+     Input String : <input type="number" [(ngModel)]="n">
+
+     <div [ngSwitch]='n'>
+          <ul *ngSwitchCase = '1' >{{dhams[0].dham}}</ul>
+          <ul *ngSwitchCase = '2' >{{dhams[1].dham}}</ul>
+          <ul *ngSwitchCase = '3' >{{dhams[2].dham}}</ul>
+          <ul *ngSwitchCase = '4' >{{dhams[3].dham}}</ul>
+          <ul *ngSwitchCase = '5'>{{dhams[4].dham}}</ul>
+          <ul *ngSwitchDefault >More dhams are there! Ask your FOLK Guide!</ul>
+     </div>
+</div>

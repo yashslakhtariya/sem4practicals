@@ -1,0 +1,48 @@
+input[type=number], select {
+     background-color: #b75969;
+     color: #d8dee9;
+     font-size: 24px;
+     font-weight: bold;
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+}
+div {
+     background-color: #fcecef;
+     padding: 50px;
+     margin-left: 220px;
+     margin-top: 220px;
+     margin-right: 220px;
+     margin-bottom: 220px;
+     top: 50%;
+     left: 50%;
+     font-size: 40px;
+     font-weight: bold;
+     color: #b75969;
+}
+button{
+     display: inline-block;
+     padding: 15px 25px;
+     font-size: 24px;
+     font-weight: bold;
+     cursor: pointer;
+     text-align: center;
+     text-decoration: none;
+     outline: none;
+     color: #fff;
+     background-color: #bf616c;
+     border: none;
+     border-radius: 12px;
+     box-shadow: 0 9px #9195bb;
+}
+button:hover {
+     background-color: #d18677;
+}
+button:active {
+     background-color: #d18677;
+     box-shadow: 0 5px #9195bb;
+}
