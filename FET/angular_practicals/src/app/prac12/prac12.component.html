@@ -1,0 +1,14 @@
+<br><br><br><br><br><br>
+<div>
+     <h2>YSL TODO List</h2>
+     <input type="text" placeholder="Add task" [(ngModel)]="txt">
+     &nbsp;&nbsp;&nbsp;&nbsp;
+     <button (click)="create()"> Add task </button>
+     <br><br>
+     <ul>
+          <li *ngFor="let item of list">
+               <input type="checkbox" (change)="remove(item)">
+               {{item}}
+          </li>
+     </ul>
+</div>

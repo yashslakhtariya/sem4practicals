@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { Prac11Component } from './prac11/prac11.component';
+import { Prac12Component } from './prac12/prac12.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Prac11Component
+    Prac11Component,
+    Prac12Component
   ],
   imports: [
     BrowserModule, FormsModule
