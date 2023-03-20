@@ -26,6 +26,7 @@ import { NgstylComponent } from './ngstyl/ngstyl.component';
     BrowserModule, FormsModule
   ],
   providers: [],
+  // bootstrap: [ParentComponent]
   bootstrap: [AppComponent]
 })
 export class AppModule { }
