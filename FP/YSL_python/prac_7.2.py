@@ -1,3 +1,4 @@
+from YSL_io import *
 class YSL:
      @staticmethod
      def encrypt(txt, shift: int, out):
@@ -19,6 +20,6 @@ class YSL:
      def decrypt(txt, shift, out):
          YSL.encrypt(txt, -shift, out) 
 
-file_in = input("Enter the filename to encrypt : ")
-file_out = input("Enter the filename to write : ")
+file_in = inputMGNTA("Enter the filename to encrypt : ")
+file_out = inputGRN("Enter the filename to write : ")
 YSL.encrypt(file_in, 5, file_out)

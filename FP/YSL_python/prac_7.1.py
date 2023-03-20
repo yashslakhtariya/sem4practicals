@@ -1,3 +1,4 @@
+from YSL_io import *
 class YSL:
      @staticmethod
      def fileread(filename):
@@ -10,10 +11,10 @@ class YSL:
                     words = line.split(' ')
                     wrd += len(words)
                     ch += len(line)
-               print(f"Number of characters : {ch}")
-               print(f"Number of words : {wrd}")
-               print(f"Number of lines : {ln}")
+               printORNG(f"Number of characters : {ch}")
+               printBLU(f"Number of words : {wrd}")
+               printMGNTA(f"Number of lines : {ln}")
 
 
-f = input("Enter the filename to read : ")
+f = inputGRN("Enter the filename to read : ")
 YSL.fileread(f)
