@@ -1,0 +1,37 @@
+<br><br>
+<div>
+     <h3>Enter number for genre : </h3>
+     <p>1 for Comedy</p>
+     <p>2 for Action</p>
+     <p>3 for Thriller</p>
+     <p>4 for Horror</p>
+     <b>Input String : <input type="number" [(ngModel)]="genre"></b>
+
+     <div [ngSwitch]='genre'>
+          <ul *ngSwitchCase = '1' >
+               <li *ngFor="let c of comedy; let i=index">
+                    {{c.mv}}
+               </li>
+          </ul>
+
+          <ul *ngSwitchCase = '2' >
+               <li *ngFor="let a of action">
+                    {{a.mv}}
+               </li>
+          </ul>
+
+          <ul *ngSwitchCase = '3' >
+               <li *ngFor="let t of thriller">
+                    {{t.mv}}
+               </li>
+          </ul>
+
+          <ul *ngSwitchCase = '4' >
+               <li *ngFor="let h of horror">
+                    {{h.mv}}
+               </li>
+          </ul>
+
+          <ul *ngSwitchDefault >More movies coming soon!</ul>
+     </div>
+</div>

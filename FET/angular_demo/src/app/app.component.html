@@ -2,8 +2,18 @@
 
 <input type="text"[(ngModel)]="usrnme">
 <p>My username is {{usrnme}}</p>
-<app-parent></app-parent>
+<!-- <app-parent></app-parent> -->
 <!-- <app-ngif></app-ngif> -->
 <!-- <app-ngswtch></app-ngswtch> -->
 <!-- <app-ngcls></app-ngcls> -->
 <!-- <app-ngstyl></app-ngstyl> -->
+<!-- <app-demo2></app-demo2> -->
+
+<button routerLink="login" routerLinkActive="active1"> Login </button>
+<br><br>
+<button routerLink="dashboard" routerLinkActive="active1"> Dashboard </button>
+<br><br>
+<button routerLink="home" routerLinkActive="active1"> Home </button>
+<br><br>
+
+<router-outlet></router-outlet>
