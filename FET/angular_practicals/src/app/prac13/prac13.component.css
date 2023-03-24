@@ -1,0 +1,78 @@
+body {
+     background-color: #fcecef;
+   }
+
+div {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #b75969;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+     overflow: hidden;
+   }
+h3 {
+     font-size: 32px;
+     font-weight: bolder;
+     margin-top: 0;
+     margin-bottom: 20px;
+     color: #fcecef;
+   }
+   input[type="number"] {
+     font-weight: bolder;
+     width: 95%;
+     height: 48px;
+     padding: 10px 16px;
+     font-size: 16px;
+     color: #b75969;
+     border: none;
+     background-color: #fcecef;
+     border-radius: 4px;
+     outline: none;
+   }
+.menu
+{
+     width: 80%;
+     padding: 10px 16px;
+     font-size: 16px;
+     color: #222;
+     border: none;
+     background-color: #fcecef;
+     border-radius: 4px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     outline: none;
+}
+.menu p
+{
+     font-size: larger;
+}
+.inpt
+{
+     width: 80%;
+     padding: 10px 16px;
+     font-size: 16px;
+     color: #222;
+     border: none;
+     background-color: #fcecef;
+     border-radius: 4px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     outline: none;
+}
+.movies
+{
+     width: 80%;
+     padding: 10px 16px;
+     font-size: 16px;
+     color: #222;
+     border: none;
+     background-color: #fcecef;
+     border-radius: 4px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     outline: none;
+}
+.movies ul
+{
+     font-size: larger;
+     font-weight: bolder;
+     color: #b75969;
+}
