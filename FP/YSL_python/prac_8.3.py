@@ -24,8 +24,13 @@ class Complex:
     def __str__(self):
         return f"{self.real} + {self.img}i"
 
-c1 = Complex(2, 4)
-c2 = Complex(1, 2)
+r1 = int(inputGRN('Enter the real coefficient of a complex number 1 : '))
+i1 = int(inputGRN('Enter the imaginary coefficient of a complex number 1 : '))
+c1 = Complex(r1, i1)
+
+r2 = int(inputGRN('Enter the real coefficient of a complex number 2 : '))
+i2 = int(inputGRN('Enter the imaginary coefficient of a complex number 2 : '))
+c2 = Complex(r2, i2)
 
 c1 + c2
 c1 - c2
