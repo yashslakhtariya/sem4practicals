@@ -1,3 +1,5 @@
+from YSL_io import *
+
 import time
 
 class StopWatch:
@@ -23,4 +25,4 @@ for i in range(1, 1000001):
     total += i
 stpwtch.stop()
 
-print(f"Time taken to add numbers from 1 to 1,000,000: {stpwtch.calculate_time} ms")
+printGRN(f"\nTime taken to add numbers from 1 to 1,000,000: {stpwtch.calculate_time} ms")
