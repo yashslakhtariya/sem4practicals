@@ -1,19 +1,19 @@
 from termcolor import colored
 
-def printRED(y):
-     print(colored(y, 'red'))
+def printRED(y, end='\n'):
+     print(colored(y, 'red'), end=end)
      
-def printBLU(y):
-     print(colored(y, 'blue'))
+def printBLU(y, end='\n'):
+     print(colored(y, 'blue'), end=end)
      
-def printGRN(y):
-     print(colored(y, 'green'))
+def printGRN(y, end='\n'):
+     print(colored(y, 'green'), end=end)
      
-def printMGNTA(y):
-     print(colored(y, 'magenta'))
+def printMGNTA(y, end='\n'):
+     print(colored(y, 'magenta'), end=end)
      
-def printORNG(y):
-     print(colored(y, 'yellow'))
+def printORNG(y, end='\n'):
+     print(colored(y, 'yellow'), end=end)
      
 # def printYLW(y):
 #      print(colored(y, 'cyan'))

@@ -1,33 +1,20 @@
-clc;
 clear all;
 close all;
+clc;
 
-A = [1 2 3 4 5 6];
-pA = [1/6 1/6 1/6 1/6 1/6 1/6];
-d1 = bar(A, pA, 1);
-set(d1, 'FaceColor', '#a347ba');
-d = 4;
+d = 64;
+r = 6432;
 
-B = [];
-for k = 2:d
-  for i = 1:6
-    tmp = A+i;
-    B = [B tmp];
+for i = 1:d
+  A = randi([1, 6], i, r);
+  B = sum(A, 1); # 1 for vertical, 2 for horizontal sum
+
+  for k = i:6*i
+    p(k-(i-1)) = length(find(B==k)) / r;
   endfor
-
-  for j = k:(6*k)
-    pB(j-(k-1)) = length(find(B==j)) / (6^k);
-  endfor
-
-  figure
-  d2 = bar(k:(6*k), pB, 1);
-
-  if mod(k,2) == 0
-      set(d2, 'FaceColor', '#b75969');
-  else
-      set(d2, 'FaceColor', '#d18677');
-  endif
-
-  A = B;
-  B = [];
 endfor
+
+stem(p, 'k.', 'Color', '#5e81cc', 'Markersize', 10, 'LineWidth', 2)
+figure
+bar(d:6*d, p, 1, 'facecolor', '#b75969')
+
