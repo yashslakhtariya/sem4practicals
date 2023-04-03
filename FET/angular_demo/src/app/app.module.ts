@@ -14,6 +14,7 @@ import { NgstylComponent } from './ngstyl/ngstyl.component';
 import { Module2Module } from './module2/module2.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
+import { ObservablesDemoComponent } from './observables-demo/observables-demo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './login/login.component';
     NgclsComponent,
     NgstylComponent,
     DashboardComponent,
-    LoginComponent
+    LoginComponent,
+    ObservablesDemoComponent
   ],
   imports: [
     BrowserModule, FormsModule, Module2Module, AppRoutingModule
