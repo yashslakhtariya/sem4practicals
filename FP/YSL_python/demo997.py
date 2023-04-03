@@ -9,9 +9,9 @@ plt.plot(range(1,11), values, c='#b75969', ls='--', marker='*')
 # plt.show()
 
 values2= [305, 436, 805, 35, 512, 640]
-l = ['Service', 'Reading', 'Chanting', 'Trip', 'Prasadam', 'Kirtan']
-c = ['#5e81cc', '#2aa1b3', '#BF616C', '#d18677', '#a347ba', '#eaca8a']
-e = [0, 0.22, 0, 0, 0, 0]
+l = np.array(['Service', 'Reading', 'Chanting', 'Trip', 'Prasadam', 'Kirtan'])
+c = np.array(['#5e81cc', '#2aa1b3', '#BF616C', '#d18677', '#a347ba', '#eaca8a'])
+e = np.array([0, 0.22, 0, 0, 0, 0])
 f2 = plt.figure(2)
 plt.pie(values2, colors=c, labels=l, explode=e, autopct='%1.3f%%')
 plt.legend()
