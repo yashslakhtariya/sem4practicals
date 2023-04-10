@@ -8,13 +8,15 @@ import { Prac11Component } from './prac11/prac11.component';
 import { Prac12Component } from './prac12/prac12.component';
 import { Prac13Component } from './prac13/prac13.component';
 import { AppRoutingModule } from './app-routing.module';
+import { Prac15Component } from './prac15/prac15.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Prac11Component,
     Prac12Component,
-    Prac13Component
+    Prac13Component,
+    Prac15Component
   ],
   imports: [
     BrowserModule, FormsModule, RouterModule, AppRoutingModule

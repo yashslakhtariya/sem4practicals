@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec46c96a-d8ab-4b07-9e31-3eca432a1b92" name="Changes" comment="updated">
-      <change beforePath="$PROJECT_DIR$/../../FET/angular_demo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../FET/angular_demo/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FET/angular_demo/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../FET/angular_demo/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FET/angular_demo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../FET/angular_demo/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PNS/Octave/prac_5.1.1.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FET/angular_practicals/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../FET/angular_practicals/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FET/angular_practicals/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../FET/angular_practicals/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -228,6 +227,8 @@
       <workItem from="1676870044701" duration="796000" />
       <workItem from="1676879852560" duration="1000" />
       <workItem from="1677593284947" duration="5000" />
+      <workItem from="1681027999859" duration="55000" />
+      <workItem from="1681028061739" duration="180000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1673242857975</created>
