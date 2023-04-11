@@ -6,7 +6,7 @@ import { ProductService } from '../product.service';
   selector: 'app-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.css'],
-  // providers: [ProductService] // use this service in this component only 
+  // providers: [ProductService] // to use this service in this component only 
 })
 export class ProductComponent implements OnInit{
   products: product[] = [];
