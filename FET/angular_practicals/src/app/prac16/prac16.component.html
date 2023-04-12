@@ -1,0 +1,18 @@
+<br><br><br>
+<div>
+     <button (click)="getdetails()">
+          Get Employee Details
+     </button>
+     <br><br>
+     <div class="details">
+          <br>
+          <ul *ngFor="let e of employees">
+               ID : {{e.id}} <br>
+               Name : {{e.name}} <br>
+               Dept : {{e.department}} <br>
+               Salary : {{e.salary}} <br>
+               Contact : {{e.contact}} <br>
+          </ul>
+          <br>
+     </div>
+</div>

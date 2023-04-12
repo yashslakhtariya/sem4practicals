@@ -1,0 +1,51 @@
+div {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #b75969;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     border-radius: 16px;
+     overflow: hidden;
+}
+button{
+     margin-left: 32%;
+     display: inline-block;
+     padding: 15px 25px;
+     font-size: 24px;
+     cursor: pointer;
+     text-align: center;
+     text-decoration: none;
+     outline: none;
+     color: #fff;
+     background-color: #5e81cc;
+     border: none;
+     border-radius: 12px;
+}
+.details
+{
+     width: 80%;
+     padding: 10px 16px;
+     font-size: 16px;
+     color: #222;
+     border: none;
+     background-color: #fcecef;
+     border-radius: 16px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     outline: none;
+}
+ul{
+     margin: auto;
+     margin-top: 16px;
+     margin-bottom: 16px;
+     width: 80%;
+     padding: 10px 16px;
+     font-size: 18px;
+     font-weight: bolder;
+     color: #222;
+     border: none;
+     color: #313744;
+     background-color: #d18677;
+     border-radius: 16px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     outline: none;
+}
