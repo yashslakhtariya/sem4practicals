@@ -25,7 +25,7 @@ employeeRoute.route('/read/:id').get((req, res) => {
 
 // Update employee
 employeeRoute.route('/update/:id').put((req, res, next) => {
-  Employee.findByIdAndUpdate(req.params.id).then((result)=>{res.json(result)})
+  Employee.findByIdAndUpdate(req.params.id, req.body).then((result)=>{res.json(result)})
   .catch((err)=>console.log(err))
 })
 
